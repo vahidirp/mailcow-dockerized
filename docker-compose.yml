@@ -633,6 +633,7 @@ networks:
     driver: bridge
     driver_opts:
       com.docker.network.bridge.name: br-mailcow
+      com.docker.network.driver.mtu: 1450
     enable_ipv6: true
     ipam:
       driver: default
